@@ -1,4 +1,4 @@
-my Dockerfile is this: FROM nginx:alpine
+FROM nginx:alpine
 RUN rm -rf /usr/share/nginx/html/*
 COPY . /usr/share/nginx/html
 EXPOSE 8080
